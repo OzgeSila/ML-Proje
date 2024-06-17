@@ -1,0 +1,30 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Günlük Grafik Güncelleyici
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '0 0 * * *' # Her gün gece yarısı
+jobs:
+  update-chart:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu Çek
+        uses: actions/checkout@v2
+
+      - name: Gerekli Paketleri Kur
+        run: |
+          pip install matplotlib
+
+      - name: Grafik Scriptini Çalıştır
+        run: |
+          python generate_chart.py # Script adınız
+
+      - name: Grafik Görüntüsünü Yükle
+        run: |
+          git config --global user.name 'your-username'
+          git config --global user.email 'your-email'
+          git add chart.png
+          git commit -m 'Grafik güncellendi'
+          git push
