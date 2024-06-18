@@ -1,5 +1,7 @@
 https://bilgiedu-my.sharepoint.com/:u:/g/personal/ozge_cakmak02_bilgiedu_net/EXV2hc-Zi8RMsT0kup8mrH8BArqPWVXTrkuJZoaiiGtvjg?e=6dfCDy
 
+https://app.powerbi.com/reportEmbed?reportId=45ab7fb4-a042-4106-85c3-37f80aad6416&autoAuth=true&ctid=da2fd848-1e41-4299-b410-7b1ec11c469b
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/N24Xct0L)
 ## *Director Prediction Based on the Film's Characteristics*
 let loadedResolve, reportLoaded = new Promise((res, rej) => { loadedResolve = res; });
