@@ -174,7 +174,7 @@ gantt
                Model Evaluation                                   :active, des14, 2024-05-25, 5d
 
        section Website
-       Final Checks                                       :active, des16, 2024-06-05,10d
+               Final Checks                                       :active, des16, 2024-06-05,10d
        Publishing                                         :active, des17, 2024-06-16, 1d
     
 
